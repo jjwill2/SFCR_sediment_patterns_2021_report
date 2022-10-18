@@ -1,0 +1,10 @@
+site,site_label,target_form,ssc_25ntu,RBG
+BC,Butcher Cr,Target (mg/L) = SSC25NTU + (SSC * RBG),25.25,0.24
+CC,Cottonwood Cr,50 mg/L daily average,,
+JC,Johns Cr,,,
+RR,Red River,,,
+SFRR,SF Red River,,,
+TC,Threemile Cr,Target (mg/L) = SSC25NTU + (SSC * RBG),17,0.08
+USGS-13337500,Elk City (13337500),,,
+USGS-13338100,Harpster (13338100),Target (mg/L) = SSC25NTU + (SSC * RBG),60,0.72
+USGS-13338500,Stites (13338500),Target (mg/L) = SSC25NTU + (SSC * RBG),45,0.22
