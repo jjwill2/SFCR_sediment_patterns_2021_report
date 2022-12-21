@@ -1,0 +1,25 @@
+R version 4.1.2 (2021-11-01)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 10 x64 (build 19044)
+
+Matrix products: default
+
+locale:
+[1] LC_COLLATE=English_United States.1252  LC_CTYPE=English_United States.1252    LC_MONETARY=English_United States.1252
+[4] LC_NUMERIC=C                           LC_TIME=English_United States.1252    
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] ggthemes_4.2.4       lubridate_1.8.0      EGRET_3.0.6          ggpubr_0.4.0         scales_1.1.1         forcats_0.5.1       
+ [7] stringr_1.4.0        purrr_0.3.4          readr_2.1.0          tidyr_1.1.4          tibble_3.1.6         tidyverse_1.3.1     
+[13] readxl_1.3.1         reshape2_1.4.4       ggplot2_3.3.5        dplyr_1.0.7          dataRetrieval_2.7.10
+
+loaded via a namespace (and not attached):
+ [1] tidyselect_1.1.1 haven_2.4.3      carData_3.0-4    colorspace_2.0-2 vctrs_0.3.8      generics_0.1.1   utf8_1.2.2       rlang_0.4.12    
+ [9] pillar_1.6.4     glue_1.5.0       withr_2.4.2      DBI_1.1.1        dbplyr_2.1.1     modelr_0.1.8     lifecycle_1.0.1  plyr_1.8.6      
+[17] munsell_0.5.0    ggsignif_0.6.3   gtable_0.3.0     cellranger_1.1.0 rvest_1.0.2      tzdb_0.2.0       fansi_0.5.0      broom_0.7.10    
+[25] Rcpp_1.0.7       backports_1.3.0  jsonlite_1.7.2   abind_1.4-5      fs_1.5.0         hms_1.1.1        stringi_1.7.5    rstatix_0.7.0   
+[33] grid_4.1.2       cli_3.1.0        tools_4.1.2      magrittr_2.0.1   car_3.0-12       crayon_1.4.2     pkgconfig_2.0.3  ellipsis_0.3.2  
+[41] xml2_1.3.2       reprex_2.0.1     assertthat_0.2.1 httr_1.4.2       rstudioapi_0.13  R6_2.5.1         compiler_4.1.2  
