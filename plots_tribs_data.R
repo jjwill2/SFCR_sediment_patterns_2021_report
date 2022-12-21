@@ -1,7 +1,7 @@
 ###############################################################################
 # Plots forest tribitary flow and SSC data
 # Jason Williams, DEQ Lewiston
-# last update; 10/18/2022
+# last update; 12/20/2022
 ################################################################################
 
 library(readxl)
@@ -171,7 +171,7 @@ lower_tribs_turb_plot <-
   turb %>%
   filter(site %in% c("Butcher Cr", "Cottonwood Cr", "Threemile Cr")) %>%
   ggplot(aes(x = `Activity Start Date`, y = `Result Value`,
-             color = parameter)) +
+             color = parameter, shape = parameter)) +
   geom_point() +
   facet_wrap(~site, nrow = 1) +
   theme_tufte() +
@@ -187,7 +187,7 @@ forest_tribs_turb_plot <-
   turb %>%
   filter(site %in% c("Johns Cr", "Red River", "SF Red River")) %>%
   ggplot(aes(x = `Activity Start Date`, y = `Result Value`,
-             color = parameter)) +
+             color = parameter, shape = parameter)) +
   geom_point() +
   facet_wrap(~site, nrow = 1) +
   theme_tufte() +

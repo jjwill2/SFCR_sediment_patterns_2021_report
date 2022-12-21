@@ -1,7 +1,7 @@
 ###############################################################################
 # Tests for TMDL target exceedances
 # Jason Williams, DEQ Lewiston
-# last update; 10/18/2022
+# last update; 12/21/2022
 ################################################################################
 
 library(readxl)
@@ -14,7 +14,7 @@ usgs_wq <-read.csv("./r_inputs/usgs_wq.csv", header = TRUE)
 str(usgs_wq)
 
 # tribs data
-tribs <-read_excel("./formatted data/Physical Chemical Template RAC project.xlsx", 
+tribs <-read_excel("./r_inputs/Physical Chemical Template RAC project.xlsx", 
                      sheet = "Results - config#7753", col_names = TRUE)
 str(tribs)
 
